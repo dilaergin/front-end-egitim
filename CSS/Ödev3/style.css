@@ -1,0 +1,74 @@
+html{
+    height: 100%;
+}
+body{
+    margin: 0;
+    font-family:'Poiret One', cursive; 
+    height: 100%;   
+}
+.main{
+    display: flex;
+    height: 100%;
+
+}
+.left-side{
+    padding: 65px 220px 170px 170px;
+}
+
+.left-side-items{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.pink{
+    color:lightpink;
+    font-size: 50px;
+}
+.black{
+    color:black;
+    font-size: 50px;
+    font-weight: bolder;
+}
+h1{
+    margin: 0px;
+    padding: 0px;
+}
+
+p{
+    color:lightpink;
+    font-size: 20px;
+}
+
+input{
+    border: none;
+    background-color: unset;
+    color: lightpink;
+    font-size: 15px;
+    padding-left: 20px;
+    outline: none;
+    width: 100%;
+
+     
+}
+
+.CTA{
+    border: 1px solid lightgrey;
+    border-radius: 50px;  
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    position: relative;
+    
+}
+.btn{
+    border: none;
+    background-color: lightpink;
+    width: 100px;
+    height: 50px;
+    border-radius: 50px;
+    position: absolute;
+    left: 340px;
+    box-shadow: 0px 8px 15px rgba(233, 148, 148, 0.64)
+}
