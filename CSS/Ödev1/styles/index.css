@@ -1,0 +1,30 @@
+body{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+}
+
+
+.qr-code{
+    width: 400px;
+    padding: 25px;
+    background: white;
+    border-radius: 25px;
+}
+
+img{
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+    border-radius: 25px;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    color: grey;
+    font-size: 25px;
+}
