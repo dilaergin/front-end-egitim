@@ -1,0 +1,158 @@
+*{
+    font-family: 'League Spartan', sans-serif;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 1440px;
+    background-color: hsl(222, 26%, 31%);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: hsl(0, 0%, 100%);
+    font-size: 32px;
+}
+
+.main{
+    width: 400px;  
+   
+}
+.calculator{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    font-size: 26px;   
+}
+
+.toogle-radio{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    position: relative;
+}
+
+.numbers {
+    position: absolute;
+    width: 64px;
+    right: 0;
+    top: -16px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 12px;
+}
+
+.theme{
+    font-size: 12px;
+}
+
+.switch {
+    border: none;
+    height: 16px;
+    width: 16px;
+    border-radius: 100%;
+    background: none;  
+    cursor: pointer; 
+}
+
+.toggle-switch{
+    display: flex;
+    justify-content: space-around;
+    padding: 3px;
+    border-radius: 32px;
+    background-color: hsl(223, 31%, 20%);
+    width: 64px;
+}
+
+.switch.active{
+    background: hsl(6, 63%, 50%);
+}
+
+.calc-numbers{
+    display: flex;
+    padding: 0;
+    background-color: hsl(224, 36%, 15%);
+    width: 100%;
+    border: none;
+    color:hsl(0, 0%, 100%);
+    border-radius: 5px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: right;
+    font-size: 32px;
+}
+
+.calculate{
+    width: 100%;
+    text-align: right;
+}
+
+.calculator-buttons{
+    padding: 20px; 
+    border-radius: 5px;
+    background-color: hsl(223, 31%, 20%);
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(5,1fr);
+    gap: 16px; 
+}
+.btn{
+    background-color: hsl(34deg 24% 89%);
+    border: none;
+    border-radius: 5px;
+    color: hsl(221, 14%, 31%);
+    padding: 10px;
+    font-size: 30px;
+    box-shadow: 0px 3px hsl(225, 2%, 38%);
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: white;
+    box-shadow: hsl(28, 16%, 65%);
+}
+
+.calculator-buttons .reset{
+    grid-column: 1 / 3;
+    color:hsl(222, 9%, 79%);
+    background-color: hsl(225deg 21% 50%);
+    box-shadow: 0px 3px hsl(224, 28%, 35%);
+}
+
+.calculator-buttons .reset:hover{
+    background-color: hsl(225deg 51% 76%);
+    color: white;
+
+}
+
+.calculator-buttons .equal{
+    grid-column: 3 / 5;
+    color:hsl(222, 9%, 79%);
+    background-color: hsl(6deg 63% 51%);
+    box-shadow: 0px 3px hsl(6, 70%, 34%);
+}
+
+.calculator-buttons .equal:hover{
+    background-color:hsl(6deg 93% 67%);
+    color: white;
+}
+.calculator-buttons .del{
+    color:hsl(222, 9%, 79%);
+    background-color: hsl(225deg 21% 50%);
+    box-shadow: 0px 3px hsl(224, 28%, 35%);
+}
+
+.calculator-buttons .del:hover{
+    background-color: hsl(225deg 51% 76%);
+    color: white;
+}
+
